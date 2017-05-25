@@ -1,0 +1,20 @@
+{
+    "name": "liveshoutbox",
+    "description": "live shoutbox via sms",
+    "version": "1.0.0",
+    "main": "server.js",
+    "licence": "MIT",
+    "author": {
+        "name": "markus parkkonen",
+        "email": "markus.parkkonen@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/empee/liveshoutbox.git"
+    },
+    "homepage": "https://github.com/empee/liveshoutbox",
+    "dependencies": {
+        "express": "4.15.x",
+        "mongoskin": "2.1.x"
+    }
+}

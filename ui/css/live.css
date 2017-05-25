@@ -1,0 +1,97 @@
+body {
+    padding:0;
+    margin:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: url(/img/bg.gif);
+}
+#container {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#header {
+    background: #dd0007;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+}
+#header img {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+#title {
+    padding-left: 200px;
+    font-size: 40px;
+    float: left;
+}
+#sub-title {
+    float: right;
+    font-size: 20px;
+    padding-right: 10px;
+    clear: right;
+    text-align: right;
+}
+#que {
+    font-size: 16px;
+    clear: left;
+}
+
+#content {
+    clear: both;
+    overflow: hidden;
+    height: calc(100vh - 60px);
+}
+
+#spacer {
+    height: 708px;
+}
+
+.message {
+    background: black;
+    max-height: 46px;
+    margin: 6px 5px;
+    padding: 4px;
+    line-height: 30px;
+    font-size: 28px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    letter-spacing: 1px;
+}
+.message span { margin-right: 10px; }
+
+.blue { color: dodgerblue; }
+.pink { color: fuchsia; }
+.green { color: forestgreen; }
+.orange { color: orange; }
+.yellow { color: gold; }
+.red { color: #ff7070; }
+.white { color: silver; }
+.superyellow { color: gold;
+	animation: bounce 5s linear infinite;
+	opacity: 1;
+}
+
+@keyframes bounce {
+	0% { opacity: 1; }
+	6% { opacity: 1; }
+	10% { opacity: 0; }
+	16% { opacity: 1; }
+	20% { opacity: 1; color: blue; }
+	30% { opacity: 1; }
+	40% { opacity: 1; }
+	50% { opacity: 1; color: gold; }
+	60% { opacity: 1; }
+	70% { opacity: 1; }
+	80% { opacity: 0.3; }
+	90% { opacity: 1; }
+	100% { opacity: 1; }
+}

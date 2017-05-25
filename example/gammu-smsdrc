@@ -1,0 +1,25 @@
+[gammu]
+/port = /dev/ttyUSB0
+name = huawei
+connection = at19200
+
+[smsd]
+service = files
+logfile = syslog
+MultipartTimeout = 600
+receivefrequency = 1
+commtimeout = 1
+loopsleep = 1
+hangupcalls = 1
+checksignal = 0
+checknetwork = 0
+checksecurity = 0
+checkbattery = 0
+debuglevel = 0
+runonreceive = /path/to/receiver.js
+smsc = +358447983500
+
+inboxpath = /var/spool/gammu/inbox/
+outboxpath = /var/spool/gammu/outbox/
+sentsmspath = /var/spool/gammu/sent/
+errorsmspath = /var/spool/gammu/error/
